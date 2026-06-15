@@ -1,0 +1,275 @@
+{
+  "common": {
+    "back": "Back",
+    "catalog": "Catalog",
+    "documents": "Documents",
+    "admin": "Admin",
+    "logout": "Logout",
+    "openCatalog": "Open Catalog",
+    "login": "Login",
+    "allCategories": "All Categories",
+    "allProducts": "All Products",
+    "nothingFound": "Nothing Found",
+    "details": "Details",
+    "todayOffs": "Today's offs:",
+    "item": "pcs.",
+    "total": "Total"
+  },
+  "pages": {
+    "documents": {
+      "title": "Documents",
+      "warranty": "Warranty",
+      "issuance": "Issuance Act",
+      "successWarranty": "✅ Warranty {id} created",
+      "successIssuance": "✅ Issuance act {id} created"
+    },
+    "warranty": {
+      "title": "Warranty Certificate",
+      "brand": "Brand",
+      "model": "Model",
+      "modelPlaceholder": "Start typing model name...",
+      "modelRequired": "Model *",
+      "serialNumber": "Serial Number",
+      "serialPlaceholder": "Scan or enter",
+      "serialHint": "Enter — save and print",
+      "duration": "Warranty: {months} months ({brand})",
+      "clientSearch": "Search client in database (optional)",
+      "clientSearchPlaceholder": "Search by name or phone...",
+      "clientName": "Client Name",
+      "clientNamePlaceholder": "Enter full name",
+      "clientPhone": "Client Phone",
+      "clientPhonePlaceholder": "+998 __ ___ __ __",
+      "clientBound": "✓ Client linked",
+      "print": "Print",
+      "clear": "Clear",
+      "preview": "Preview",
+      "selectBrandModel": "Select brand and model",
+      "warranty_months": "mo.",
+      "errorCreating": "Error creating warranty",
+      "productInfo": "{name} · {code}"
+    },
+    "issuance": {
+      "title": "Issuance Act for Temporary Use",
+      "model": "Model",
+      "modelPlaceholder": "Start typing model name...",
+      "modelRequired": "Model *",
+      "serialNumber": "Serial Number",
+      "cost": "Cost *",
+      "returnDate": "Return Date *",
+      "clientFromDatabase": "Client from database",
+      "clientSearchPlaceholder": "Search by name or phone...",
+      "clientName": "Client Name",
+      "clientNamePlaceholder": "Enter full name",
+      "clientPhone": "Client Phone",
+      "clientPhonePlaceholder": "+998 __ ___ __ __",
+      "condition": "Condition",
+      "conditionNew": "New",
+      "conditionDisplay": "Display",
+      "conditionOther": "Other",
+      "completeness": "Completeness",
+      "notes": "Notes",
+      "submit": "Create Act",
+      "errorCreating": "Error creating issuance act",
+      "packaging": "Box",
+      "wrapping": "Packaging",
+      "plasticBags": "Plastic Bags",
+      "manual": "Manual",
+      "cables": "Cables"
+    }
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "settings": "Settings",
+    "users": "Users",
+    "warranty": "Warranty",
+    "warranties": "Warranties",
+    "issuances": "Issuance Acts",
+    "products": "Products",
+    "clients": "Clients",
+    "employees": "Employees",
+    "schedules": "Schedules",
+    "attendance": "Attendance",
+    "menu": {
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "categories": "Categories",
+      "clients": "Clients",
+      "employees": "Employees",
+      "attendance": "Attendance",
+      "schedules": "Work Schedule",
+      "warranties": "Warranties",
+      "warrantyTemplate": "Warranty Settings",
+      "warrantyBrands": "Warranty Brands",
+      "issuances": "Issuance Acts",
+      "users": "Users",
+      "audit": "Audit",
+      "reports": "Reports",
+      "settings": "Settings",
+      "integration": "1C Mapping"
+    }
+  },
+  "catalog": {
+    "title": "Catalog",
+    "search": "Search products...",
+    "category": "Category",
+    "brand": "Brand",
+    "price": "Price",
+    "addToCart": "Add to Cart",
+    "noProducts": "No products found",
+    "loading": "Loading...",
+    "filters": "Filters",
+    "characteristics": "Characteristics",
+    "features": "Features",
+    "warehouse": "Warehouse Stock",
+    "countProducts": "products",
+    "pageOf": "{page} / {total}"
+  },
+  "login": {
+    "title": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "admin@example.com",
+    "passwordPlaceholder": "Your password",
+    "signIn": "Sign In",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "No account? Contact administrator",
+    "errorInvalid": "Invalid credentials",
+    "username": "Username",
+    "usernamePlaceholder": "Enter username",
+    "signInDescription": "Sign in to access the admin panel"
+  },
+  "employee": {
+    "title": "Employee",
+    "schedule": "Schedule",
+    "attendance": "Attendance",
+    "info": "Info",
+    "timeTracking": "Work time tracking system",
+    "selectEmployee": "Select an employee to mark",
+    "todayOff": "Today is day off",
+    "atWork": "At work",
+    "leftWork": "Left",
+    "notCheckedInYet": "Not checked in yet",
+    "noActiveEmployees": "No active employees",
+    "dayOffUnavailable": "Today is day off - marking is unavailable",
+    "youAtWork": "You are at work",
+    "processing": "Processing...",
+    "leaving": "I am leaving",
+    "arrived": "I ARRIVED",
+    "todayLog": "Today's log",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "noTodayRecords": "No records for today yet",
+    "atWorkNow": "At work now",
+    "nobody": "Nobody",
+    "todayDaysOff": "Today's days off",
+    "fixedFor": "recorded for",
+    "errorTryAgain": "Error! Please try again.",
+    "from": "from"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "loading": "Loading...",
+    "products": "Products",
+    "discounted": "Discounted",
+    "clients": "Clients",
+    "warranties": "Warranties",
+    "employees": "Employees",
+    "attendance": "Attendance"
+  },
+  "estimate": {
+    "title": "Estimate",
+    "items": "Items",
+    "total": "Total",
+    "addItem": "Add Item",
+    "removeItem": "Remove",
+    "calculate": "Calculate"
+  },
+  "schedule": {
+    "title": "Schedule",
+    "date": "Date",
+    "time": "Time",
+    "description": "Description"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "add": "Add",
+    "submit": "Submit",
+    "loading": "Loading..."
+  },
+  "errors": {
+    "title": "Error",
+    "unknown": "Unknown error",
+    "networkError": "Network error",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "notFound": "Not found"
+  },
+  "onboarding": {
+    "title": "System Setup",
+    "subtitle": "Takes about 3 minutes",
+    "platformVersion": "Platform v2.0",
+    "steps": {
+      "profile": {
+        "title": "Store Profile",
+        "desc": "Name, address and contacts of your company"
+      },
+      "branding": {
+        "title": "Appearance",
+        "desc": "Logo and brand colors"
+      },
+      "admin": {
+        "title": "Administrator",
+        "desc": "Create an account for management"
+      },
+      "import": {
+        "title": "Product Catalog",
+        "desc": "Upload price list or add later"
+      },
+      "modules": {
+        "title": "Modules",
+        "desc": "Select the functions you need"
+      },
+      "done": {
+        "title": "Done!",
+        "desc": "Your store is configured and ready to use"
+      }
+    },
+    "modules": {
+      "catalog": {
+        "label": "Product Catalog",
+        "desc": "Manage products, prices, categories"
+      },
+      "crm": {
+        "label": "Clients (CRM)",
+        "desc": "Client database, purchase history"
+      },
+      "hr": {
+        "label": "Personnel (HR)",
+        "desc": "Employees, schedules, attendance tracking"
+      },
+      "documents": {
+        "label": "Documents",
+        "desc": "Warranty certificates, issuance acts"
+      },
+      "reporting": {
+        "label": "Reports",
+        "desc": "Sales and attendance analytics"
+      }
+    },
+    "buttons": {
+      "next": "Next →",
+      "back": "← Back",
+      "finish": "🚀 Launch!",
+      "loading": "⏳ Setting up..."
+    },
+    "step": "Step {current} of {total}",
+    "progress": "{percent}%"
+  }
+}

@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:16-alpine:///storeflow_test
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+
+jwt:
+  secret: test-secret-key-for-unit-tests-only-32chars!!
+  access-expiration: 3600000
+  refresh-expiration: 86400000

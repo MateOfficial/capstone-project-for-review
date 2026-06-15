@@ -1,0 +1,1 @@
+ALTER TABLE stores ALTER COLUMN logo_url TYPE TEXT;

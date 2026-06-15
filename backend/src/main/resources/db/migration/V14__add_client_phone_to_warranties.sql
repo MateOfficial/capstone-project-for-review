@@ -1,0 +1,3 @@
+ALTER TABLE warranties
+    ADD COLUMN IF NOT EXISTS client_phone VARCHAR(50),
+    ADD COLUMN IF NOT EXISTS client_name  VARCHAR(255);
